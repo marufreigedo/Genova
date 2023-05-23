@@ -1,25 +1,618 @@
-body header {background-color: orange;}
+        * {
+        margin: 0%;
+        list-style: none;
+        box-sizing: border-box;
+        }
 
-body header img {
-    width: 100px; ;
-    height: 100px;
-    margin: auto;
-}
-body header nav ul li { 
-    display: inline-block;
+        body{
 
-}
-footer img {
-    width: 60px;
-    height: 60px;
-    display: inline-block;
-    }
+        font-family: 'Castoro Titling', cursive;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
 
-   .final img{
-    width: 100px;
-    height: 100px;
-   }
+        .logo{
 
-   .final {
-    background-color: orange;
-   }
+        align-items: center;
+        }
+
+
+        .logo img {
+
+        height: 100px;
+        margin-left: 10px;
+        }
+
+
+        .barra{ 
+        
+        font-family: system-ui;
+        background-color: orange;
+        text-align: center;
+        }
+
+        .barra2 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;         
+        }
+
+        .principal{
+
+        padding-top: 2.5%;
+        }
+                
+        body header img {
+
+        width: 100px; ;
+        height: 100px;
+        margin: auto;
+        }
+
+        header {  
+        height: 120px;
+        justify-content:space-around; 
+        align-items: center;
+        padding: 10px;
+        }
+                
+        .negrita a {
+        font-weight: 600;
+        }
+        .negrita2 a {
+        font-weight: 600;
+        }
+        .negrita3 a {
+        font-weight: 600;
+        }
+        .negrita4 a {
+        font-weight: 600;
+        }
+        .negrita5 a{
+        font-weight: 600;
+        }
+
+                
+        header nav ul {
+
+        display: flex;
+        list-style: none;
+        }
+
+        header nav ul li a {
+        text-decoration: none ;
+        padding-right: 10px;
+        color: black;
+        }
+                
+        .logo h1 { 
+
+        display: flex;
+        justify-content: flex-start ;
+        align-items: flex-start;
+        }
+
+
+        footer div a {
+
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        }
+
+        .finalimg{
+
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        }
+
+        .finalfooter {
+
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        }
+                
+        .colorfooter {
+
+        background-color: orange;
+        }
+
+        .pedidosya img{
+
+        width: 300px;
+        height: 300px;
+        display:block;
+        margin: auto;
+        }
+
+        .pandemolde img {
+
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: auto;  
+        }
+
+        .titulopanaderia {
+
+        display: block;
+        font-size: 35px;
+        font-weight: 700;
+        margin-top: 15px;
+        box-sizing: border-box;
+        padding: 50px;
+        background-color: rgba(255, 166, 0, 0.685)
+        }
+        
+        .productospanaderia {
+
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        }
+
+        .descripcionpanaderia {
+
+        display: block;
+        font-size: 25px;
+        font-weight: 400;
+        box-sizing: border-box;
+        padding: 1px;
+        margin: 20px;
+        }
+
+        footer div ul li{
+        display: inline-block;
+        }
+
+        .banner img {
+
+        width: 430px;
+        height: 320px;
+        display: inline-block;
+        }
+                
+        .mision { 
+
+        font-weight: 300;
+        margin-top: 0;
+        font-size: 30px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        display: block;
+        padding: px;
+        margin: 5px 5px 5px 5px;
+        }
+                
+        .tituloh2 {
+
+        display: block;
+        font-size: 35px;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        padding: 100px;
+        }
+
+        .iframe {
+        
+        width: 1366px;
+        height: 668px;
+        margin: px 10px 10px 400px;
+        padding: 50px;
+        border: 1px solid rgb(0, 0, 0);
+        }
+
+        .iconos {
+        line-height: 100px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 10px;
+        }
+
+        .panbanner img {
+        padding-top: 2.5%;
+        }
+
+
+        /* PASTELERIA */
+        .grid {
+        
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px; 
+        }
+
+        .gridimg {
+
+        height: 350px;
+        width: 450px;
+        padding-top: 8%
+        }
+
+        .caja1 {
+
+        display: block;
+        font-size: 35px;
+        font-weight: 800;
+        box-sizing: border-box;
+        padding: 80px;
+        background-color: rgb(255, 166, 0, 0.685);
+        }
+                
+        .caja2 {
+        margin: 100px;
+        }
+
+        .productospasteleria {
+
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: 900;
+        margin-top: 1px;
+        }
+                
+        .carruselpasteleria {
+
+        width: 1000px;
+        height: 500px;
+        margin: 10px 180px;
+        }        
+
+        /*PANADERIA*/
+
+        .carrusel {
+
+        margin: 6px 15px 15px 320px ;
+        width: 900px ;
+        height: 300px;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        overflow: hidden;
+        }
+
+        /*PAGINA CONTACTO*/
+
+        .contacto1 {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        padding: 100px;
+        margin: 20px;
+        text-align: center;
+        font-size: 25px;
+        background-color: rgb(10, 10, 10);
+        }
+                
+        .contacto2 {
+                        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        margin: 20px;
+        text-align: center;
+        font-size: 20px;
+        }
+                
+
+
+        /* Media Queries */
+
+        /* Pantallas chicas pagina index */
+
+        @media only screen and (max-width: 600px) {
+        .logo img {
+        height: 60px;
+        margin-left: 5px;
+        }
+      
+        .logo h1 {
+        font-size: 20px;
+        }
+      
+        header {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+        }
+      
+        .menu-icon {
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 10px;
+        }
+      
+        .menu {
+        display: none;
+        }
+      
+        .menu li {
+        margin-bottom: 10px;
+        }
+      
+        input[type="checkbox"] {
+        display: none;
+        }
+      
+        input[type="checkbox"]:checked ~ .menu {
+        display: block;
+        }
+      
+        .principal {
+        padding-top: 5%;
+        }
+      
+        .principal img {
+        max-width: 100%;
+        height: auto;
+        }
+      
+        .tituloh2 {
+        font-size: 25px;
+        padding: 10px;
+        }
+      
+        .mision {
+        font-size: 20px;
+        padding: 10px;
+        margin: 0;
+        }
+      
+        footer {
+        flex-direction: row;
+        padding: 30px;
+        font-size: 15px;
+        }
+      
+        .map {
+
+        width: 100%;
+        max-width: none;
+        margin-bottom: 20px;
+        }
+      
+        .iframe {
+
+        width: 100%;
+        height: 200px;
+        }
+      
+        .contacto ul {
+
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+        }
+      
+        .contacto ul li {
+        margin: 5px;
+        }
+      }
+      
+        /* Pantallas medianas pagina index */
+
+        @media only screen and (min-width: 601px) and (max-width: 1024px) {
+        .logo img {
+        height: 80px;
+        }
+      
+        .menu-icon {
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+        }
+      
+        header {
+        justify-content: space-between;
+        padding: 10px;
+        }
+      
+        .menu {
+        display: none;
+        }
+      
+        .menu li {
+        margin-right: 10px;
+        }
+      
+        input[type="checkbox"]:checked ~ .menu {
+        display: flex;
+        }
+      
+        .principal img {
+        max-width: 100%;
+        height: auto;
+        }
+      }
+
+
+        /* Pantallas chicas pagina panaderia */
+
+         @media only screen and (max-width: 600px) {
+        .logo img {
+          height: 60px;
+          margin-left: 5px;
+        }
+      
+        .logo h1 {
+        font-size: 20px;
+        }
+      
+        header {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+        }
+      
+        .barra2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        }
+      
+        .menu-icon {
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 10px;
+        }
+      
+        .menu {
+        display: none;
+        flex-direction: column;
+        }
+      
+        .menu li {
+        margin-bottom: 10px;
+        }
+      
+        input[type="checkbox"] {
+        display: none;
+        }
+      
+        input[type="checkbox"]:checked ~ .menu {
+        display: flex;
+        }
+      
+        .panbanner img {
+        max-width: 100%;
+        height: auto;
+        }
+      
+        .titulopanaderia {
+        font-size: 25px;
+        padding: 10px;
+        }
+      
+        .descripcionpanaderia {
+        font-size: 20px;
+        padding: 10px;
+        margin: 0;
+        }
+      
+        .productospanaderia {
+        font-size: 18px;
+        padding: 5px;
+        }
+      
+        .carrusel {
+        margin-top: 20px;
+        }
+      
+        .carrusel .carousel-item {
+        height: 200px;
+        }
+      
+        .carrusel .carousel-item img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        }
+      
+        .carousel-control-prev,
+        .carousel-control-next {
+        height: 100%;
+        }
+      
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+        height: 100%;
+        width: 30px;
+        }
+      
+        .finalfooter {
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 10px;
+        }
+      
+        .finalimg {
+        margin: 10px auto;
+        display: block;
+        width: 50px;
+        }
+      }
+      
+        /* Pantallas medianas pagina panaderia*/
+
+        @media only screen and (min-width: 601px) and (max-width: 1024px) {
+        .logo img {
+          height: 40px;
+        
+        }
+      
+        .barra2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+      
+        .menu-icon {
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+        }
+      
+        header {
+        justify-content: space-between;
+        padding: 10px;
+        }
+      
+        .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        }
+      
+        .menu li {
+        margin-right: 10px;
+        }
+      
+        input[type="checkbox"] {
+        display: none;
+        }
+      
+        input[type="checkbox"]:checked ~ .menu {
+        display: flex;
+        }
+      
+        .panbanner img {
+        max-width: 100%;
+        height: auto;
+        }
+      
+        .titulopanaderia {
+        font-size: 30px;
+        padding: 20px;
+        }
+      
+        .descripcionpanaderia {
+        font-size: 22; }
+        }
+
+        @media only screen and (max-width: 600px) {
+                .carrusel .carousel-item {
+                  height: auto;
+                }
+        }
+
+
+
