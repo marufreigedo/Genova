@@ -1,0 +1,25 @@
+body header {background-color: orange;}
+
+body header img {
+    width: 100px; ;
+    height: 100px;
+    margin: auto;
+}
+body header nav ul li { 
+    display: inline-block;
+
+}
+footer img {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    }
+
+   .final img{
+    width: 100px;
+    height: 100px;
+   }
+
+   .final {
+    background-color: orange;
+   }

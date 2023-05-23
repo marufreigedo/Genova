@@ -1,0 +1,301 @@
+* {
+    margin: 0%;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+        font-family: 'Castoro Titling', cursive;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+
+ }
+
+.logo{
+        align-items: center;
+}
+
+
+.logo img {
+        height: 100px;
+        margin-left: 10px;
+}
+
+
+.barra{ 
+        font-family: system-ui;
+       background-color: orange;
+       text-align: center;
+
+}
+
+.barra2 {
+         display: flex;
+         justify-content: center;
+         align-items: center;         }
+
+.principal{
+        padding-top: 2.5%;
+}
+body header img {
+        width: 100px; ;
+        height: 100px;
+        margin: auto;
+}
+
+header {  
+        height: 120px;
+        justify-content:space-around; 
+        align-items: center;
+        padding: 10px;
+}
+.negrita a {
+    font-weight: 600;
+}
+.negrita2 a {
+    font-weight: 600;
+}
+.negrita3 a {
+    font-weight: 600;
+}
+.negrita4 a {
+    font-weight: 600;
+}
+.negrita5 a{
+    font-weight: 600;
+}
+
+header nav ul {
+        display: flex;
+        list-style: none;
+}
+header nav ul li a {
+        text-decoration: none ;
+        padding-right: 10px;
+        color: black;
+}
+.logo h1 { display: flex;
+     justify-content: flex-start ;
+     align-items: flex-start;
+        
+}
+
+
+footer div a {
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+}
+
+.finalimg{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+
+}
+
+.finalfooter {
+       align-items: center;
+       display: flex;
+       justify-content: center;
+    
+
+}
+.colorfooter {
+        background-color: orange;
+}
+
+
+.pedidosya img{
+        width: 300px;
+        height: 300px;
+        display:block;
+        margin: auto;
+}
+
+.pandemolde img {
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: auto;  
+}
+.titulopanaderia {
+        display: block;
+        font-size: 35px;
+        font-weight: 700;
+        margin-top: 15px;
+       box-sizing: border-box;
+       padding: 50px;
+}
+.productospanaderia {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+}
+
+.descripcionpanaderia {
+        display: block;
+        font-size: 25px;
+        font-weight: 400;
+       box-sizing: border-box;
+       padding: 1px;
+       margin: 20px;
+}
+
+
+
+
+footer div ul li{
+         display: inline-block;
+}
+
+ .banner img {
+        width: 430px;
+        height: 320px;
+        display: inline-block;
+}
+ 
+.mision { 
+        font-weight: 300;
+        margin-top: 0;
+        font-size: 30px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        display: block;
+        padding: px;
+        margin: 5px 5px 5px 5px;
+
+}
+.tituloh2 {
+        display: block;
+        font-size: 35px;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 10px;
+       box-sizing: border-box;
+       padding: 100px;
+}
+
+
+.iframe {
+        width: 1366px;
+        height: 668px;
+        margin: px 10px 10px 400px;
+        padding: 50px;
+        border: 1px solid black;
+}
+
+.iconos {
+        line-height: 100px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 10px;
+        
+        
+
+}
+
+.panbanner img {
+        padding-top: 2.5%;
+}
+
+
+  /* PASTELERIA */
+.grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px; 
+}
+
+.gridimg {
+        height: 350px;
+        width: 450px;
+        padding-top: 8%
+}
+
+.caja1 {
+
+        display: block;
+        font-size: 35px;
+        font-weight: 800;
+        box-sizing: border-box;
+        padding: 80px;
+         background-color: black;
+
+}
+ 
+.caja2 {
+        margin: 100px;
+
+}
+
+.productospasteleria {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: 900;
+        margin-top: 1px;
+
+}
+.carruselpasteleria {
+        width: 1000px;
+        height: 500px;
+        margin: 10px 180px;
+         
+}        
+
+/*PANADERIA*/
+
+.carrusel {
+        margin: 6px 15px 15px 320px ;
+         width: 700px ;
+         height: 400px;
+         color: black;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.barra2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+  
+      /* Imagen principal */
+      .principal img {
+        width: 100%;
+        height: auto;
+      }
+  
+      /* Ajustes para pantallas pequeñas */
+      @media (max-width: 767px) {
+        .barra2 {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+  
+        .barra2 img {
+          margin-bottom: 10px;
+        }
+  
+        .barra2 h1 {
+          margin-bottom: 0;
+        }}
