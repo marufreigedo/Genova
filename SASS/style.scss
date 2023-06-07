@@ -1,0 +1,474 @@
+$color_1: rgb(0, 0, 0);
+$font-family_1: "Castoro Titling", cursive;
+$font-family_2: system-ui;
+$background-color_1: rgb(255, 165, 0);
+$background-color_2: rgba(255, 166, 0, 0.685);
+$background-color_3: rgb(255, 166, 0, 0.685);
+$background-color_4: rgb(10, 10, 10);
+
+/* PASTELERIA */
+/*PANADERIA*/
+/*PAGINA CONTACTO*/
+/* Media Queries */
+/* Pantallas chicas pagina index */
+/* Pantallas medianas pagina index */
+/* Pantallas chicas pagina panaderia */
+/* Pantallas medianas pagina panaderia*/
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+body {
+	font-family: $font-family_1;
+	header {
+		img {
+			width: 100px;
+			height: 100px;
+			margin: auto;
+		}
+	}
+}
+.logo {
+	align-items: center;
+	img {
+		height: 100px;
+		margin-left: 10px;
+	}
+	h1 {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+}
+.barra {
+	font-family: $font-family_2;
+	background-color: $background-color_1;
+	text-align: center;
+}
+.barra2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.principal {
+	width: 98vw;
+}
+header {
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+	nav {
+		ul {
+			display: flex;
+			list-style: none;
+			li {
+				a {
+					text-decoration: none;
+					padding-right: 10px;
+					color: $color_1;
+				}
+			}
+		}
+	}
+}
+.negrita {
+	a {
+		font-weight: 600;
+	}
+}
+.negrita2 {
+	a {
+		font-weight: 600;
+	}
+}
+.negrita3 {
+	a {
+		font-weight: 600;
+	}
+}
+.negrita4 {
+	a {
+		font-weight: 600;
+	}
+}
+.negrita5 {
+	a {
+		font-weight: 600;
+	}
+}
+footer {
+	background-color: $background-color_1;
+	div {
+		ul {
+			li {
+				display: inline-block;
+			}
+		}
+	}
+}
+.footer1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+.footer2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.logofooter {
+	width: 100px;
+	height: 100px;
+}
+.finalimg {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+}
+.finalfooter {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 5px;
+}
+.colorfooter {
+	background-color: $background-color_1;
+}
+.pedidosya {
+	img {
+		width: 300px;
+		height: 300px;
+		display: block;
+		margin: auto;
+	}
+}
+.pandemolde {
+	img {
+		width: 300px;
+		height: 300px;
+		display: block;
+		margin: auto;
+	}
+}
+.titulopanaderia {
+	display: block;
+	font-size: 35px;
+	font-weight: 700;
+	margin-top: 15px;
+	box-sizing: border-box;
+	padding: 50px;
+	background-color: $background-color_2;
+}
+.productospanaderia {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.descripcionpanaderia {
+	display: block;
+	font-size: 25px;
+	font-weight: 400;
+	box-sizing: border-box;
+	padding: 1px;
+	margin: 20px;
+}
+.banner {
+	img {
+		width: 430px;
+		height: 320px;
+		display: inline-block;
+	}
+}
+.mision {
+	font-weight: 300;
+	font-size: 28px;
+	box-sizing: border-box;
+	display: block;
+	margin: 7px;
+}
+.tituloh2 {
+	display: block;
+	font-size: 35px;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	padding: 100px;
+}
+.iframe {
+	width: 98vw;
+	height: 668px;
+	padding: 20px;
+	border: 1px solid rgb(0, 0, 0);
+}
+.iconos {
+	width: 40px;
+	height: 40px;
+}
+.panbanner {
+	img {
+		padding-top: 2.5%;
+	}
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 0px;
+}
+.gridimg {
+	height: 350px;
+	width: 450px;
+	padding-top: 8%;
+}
+.caja1 {
+	display: block;
+	font-size: 33px;
+	text-align: center;
+	font-weight: 800;
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: $background-color_3;
+}
+.caja2 {
+	margin: 10px;
+	text-align: center;
+}
+.productospasteleria {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+	font-weight: 900;
+	margin-top: 1px;
+}
+.carruselpasteleria {
+	width: 1000px;
+	height: 500px;
+	margin: 10px 180px;
+}
+.carrusel {
+	margin: 6px 15px 15px 320px;
+	width: 900px;
+	height: 300px;
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+.contacto1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	padding: 100px;
+	margin: 20px;
+	text-align: center;
+	font-size: 25px;
+	background-color: $background-color_4;
+}
+.contacto2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	margin: 20px;
+	text-align: center;
+	font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+	.logo {
+		img {
+			height: 60px;
+			margin-left: 5px;
+			height: 60px;
+			margin-left: 5px;
+		}
+		h1 {
+			font-size: 20px;
+			font-size: 20px;
+		}
+	}
+	header {
+		height: auto;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 10px 20px;
+		height: auto;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 10px 20px;
+	}
+	.menu-icon {
+		display: block;
+		font-size: 20px;
+		cursor: pointer;
+		margin-top: 10px;
+		display: block;
+		font-size: 20px;
+		cursor: pointer;
+		margin-top: 10px;
+	}
+	.menu {
+		display: none;
+		display: none;
+		flex-direction: column;
+		li {
+			margin-bottom: 10px;
+			margin-bottom: 10px;
+		}
+	}
+	input[type="checkbox"] {
+		display: none;
+		display: none;
+		&:checked {
+			~ {
+				.menu {
+					display: block;
+					display: flex;
+				}
+			}
+		}
+	}
+	.principal {
+		padding-top: 5%;
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+	.tituloh2 {
+		font-size: 25px;
+		padding: 10px;
+	}
+	.mision {
+		font-size: 20px;
+		padding: 10px;
+		margin: 0;
+	}
+	.iframe {
+		width: 100%;
+		height: 200px;
+	}
+	.contacto {
+		ul {
+			flex-wrap: wrap;
+			justify-content: center;
+			margin-top: 10px;
+			li {
+				margin: 5px;
+			}
+		}
+	}
+	.barra2 {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.panbanner {
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+	.titulopanaderia {
+		font-size: 25px;
+		padding: 10px;
+	}
+	.descripcionpanaderia {
+		font-size: 20px;
+		padding: 10px;
+		margin: 0;
+	}
+	.productospanaderia {
+		font-size: 18px;
+		padding: 5px;
+	}
+	.finalfooter {
+		text-align: center;
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.carrusel {
+		.carousel-item {
+			height: auto;
+		}
+	}
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+	.logo {
+		img {
+			height: 80px;
+			height: 40px;
+		}
+	}
+	.menu-icon {
+		display: block;
+		font-size: 20px;
+		cursor: pointer;
+		display: block;
+		font-size: 20px;
+		cursor: pointer;
+	}
+	header {
+		justify-content: space-between;
+		padding: 10px;
+		justify-content: space-between;
+		padding: 10px;
+	}
+	.menu {
+		display: none;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		li {
+			margin-right: 10px;
+			margin-right: 10px;
+		}
+	}
+	input[type="checkbox"] {
+		&:checked {
+			~ {
+				.menu {
+					display: flex;
+					display: flex;
+				}
+			}
+		}
+		display: none;
+	}
+	.principal {
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+	.barra2 {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.panbanner {
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+	.titulopanaderia {
+		font-size: 30px;
+		padding: 20px;
+	}
+	.descripcionpanaderia {
+		font-size: 22;
+	}
+}

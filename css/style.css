@@ -8,37 +8,8 @@
 body {
   font-family: "Castoro Titling", cursive;
 }
-
-.logo {
-  align-items: center;
-}
-
-.logo img {
-  height: 100px;
-  margin-left: 10px;
-}
-
-.barra {
-  font-family: system-ui;
-  background-color: rgb(255, 165, 0);
-  text-align: center;
-}
-
-.barra2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.principal {
-  width: 98vw;
-}
-
-body header img {
-  width: 100px;
-  height: 100px;
-  margin: auto;
-}
+  
+/* HEADER */
 
 header {
   justify-content: space-around;
@@ -46,6 +17,35 @@ header {
   padding: 10px;
 }
 
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  padding-right: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.logo {
+  align-items: center;
+}
+.barra {
+  font-family: system-ui;
+  background-color: rgb(255, 166, 0);
+  text-align: center;
+}
+.barra2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
 .negrita a {
   font-weight: 600;
 }
@@ -62,25 +62,21 @@ header {
   font-weight: 600;
 }
 
-header nav ul {
-  display: flex;
-  list-style: none;
-}
 
-header nav ul li a {
-  text-decoration: none;
-  padding-right: 10px;
-  color: rgb(0, 0, 0);
+.principal {
+  width: 98vw;
 }
-
 .logo h1 {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-}
 
+
+  
+}
+/* FOOTER */
 footer {
-  background-color: rgb(255, 165, 0);
+  background-color: rgb(255, 166, 0);
 }
 
 .footer1 {
@@ -102,6 +98,17 @@ footer {
   height: 100px;
 }
 
+
+.iconos {
+  width: 40px;
+  height: 40px;
+}
+
+footer div ul li {
+  display: inline-block;
+}
+
+
 .finalimg {
   align-items: center;
   display: flex;
@@ -112,60 +119,7 @@ footer {
 }
 
 
-.finalfooter {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 5px;
-}
 
-.colorfooter {
-  background-color: rgb(255, 165, 0);
-}
-
-.pedidosya img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  margin: auto;
-}
-
-.pandemolde img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  margin: auto;
-}
-
-.titulopanaderia {
-  display: block;
-  font-size: 35px;
-  font-weight: 700;
-  margin-top: 15px;
-  box-sizing: border-box;
-  padding: 50px;
-  background-color: rgba(255, 166, 0, 0.685);
-}
-
-.productospanaderia {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-.descripcionpanaderia {
-  display: block;
-  font-size: 25px;
-  font-weight: 400;
-  box-sizing: border-box;
-  padding: 1px;
-  margin: 20px;
-}
-
-footer div ul li {
-  display: inline-block;
-}
 
 .banner img {
   width: 430px;
@@ -178,7 +132,9 @@ footer div ul li {
   font-size: 28px;
   box-sizing: border-box;
   display: block;
-  margin: 7px
+  text-align: center;
+  background-image: linear-gradient(to bottom,rgb(243, 156, 18) , rgb(245, 176, 65),rgb(248, 196, 113 ) )
+  
 }
 
 .tituloh2 {
@@ -189,6 +145,7 @@ footer div ul li {
   margin-bottom: 10px;
   box-sizing: border-box;
   padding: 100px;
+  background-color:rgba(255, 166, 0, 0.685); 
 }
 
 .iframe {
@@ -198,20 +155,19 @@ footer div ul li {
   border: 1px solid rgb(0, 0, 0);
 }
 
-.iconos {
-  width: 40px;
-  height: 40px;
-}
-
 .panbanner img {
   padding-top: 2.5%;
 }
 
-/* PASTELERIA */
+/*PAGINA PASTELERIA */
+
+.imgpasteleria {
+  width: 98vw;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 0px;
 }
 
@@ -228,12 +184,13 @@ footer div ul li {
   font-weight: 800;
   box-sizing: border-box;
   padding: 10px;
-  background-color: rgb(255, 166, 0, 0.685);
+  background-color: rgba(255, 166, 0, 0.685);
 }
 
 .caja2 {
-  margin: 10px;
   text-align: center;
+  background-color: rgb(255, 181, 33);
+  padding: 30px;
 }
 
 .productospasteleria {
@@ -251,19 +208,51 @@ footer div ul li {
   margin: 10px 180px;
 }
 
-/*PANADERIA*/
+/*PAGINA PANADERIA*/
+
+.panbanner img {
+  width: 98vw;
+}
+
+.titulopanaderia {
+  display: block;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 15px;
+  box-sizing: border-box;
+  padding: 50px;
+  background-color: rgba(255, 166, 0, 0.685);
+}
+
+.descripcionpanaderia {
+  text-align: center;
+  background-color: rgb(255, 181, 33);
+  padding: 30px;
+ 
+}
+
+
+.productospanaderia {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.pandemolde img {
+ width:98vw ;
+  display: block;
+  margin: auto;
+}
 
 .carrusel {
-  margin: 6px 15px 15px 320px;
-  width: 900px;
-  height: 300px;
-  max-width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  overflow: hidden;
+ 
 }
 
 /*PAGINA CONTACTO*/
+.principal img {
+  width: 98vw;
+}
 
 .contacto1 {
   display: flex;
@@ -274,7 +263,7 @@ footer div ul li {
   margin: 20px;
   text-align: center;
   font-size: 25px;
-  background-color: rgb(10, 10, 10);
+  background-color: rgba(255, 166, 0, 0.685);
 }
 
 .contacto2 {
@@ -287,7 +276,81 @@ footer div ul li {
   font-size: 20px;
 }
 
+
+/* PAGINA PEDI YA */
+
+.finalpag {
+
+  display: block;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  padding: 100px;
+  background-color:rgba(255, 166, 0, 0.685); 
+  color: black;
+  
+}
+
+.pedidosya img {
+  width: 98vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Media Queries */
+
+
+@media (max-width: 768px) {
+  .footer1 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .logofooter {
+    margin-bottom: 10px;
+  }
+}
+
+
+/* Media queries para hacer el header responsivo */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  header nav ul li a {
+    padding: 10px 0;
+    display: block;
+  }
+
+  body header img {
+    width: 71px;
+    height: 71px;
+    margin: auto;
+  }
+}
+
 
 /* Pantallas chicas pagina index */
 
@@ -375,6 +438,9 @@ footer div ul li {
     height: 80px;
   }
 
+  .navresponsive {
+    flex-direction: column;
+  }
   .menu-icon {
     display: block;
     font-size: 20px;
@@ -542,8 +608,3 @@ footer div ul li {
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .carrusel .carousel-item {
-    height: auto;
-  }
-}
