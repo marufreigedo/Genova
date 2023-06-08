@@ -9,7 +9,6 @@ body {
   font-family: "Castoro Titling", cursive;
 }
 
-/* HEADER */
 header {
   justify-content: space-around;
   align-items: center;
@@ -52,15 +51,19 @@ body header img {
 .negrita a {
   font-weight: 600;
 }
+
 .negrita2 a {
   font-weight: 600;
 }
+
 .negrita3 a {
   font-weight: 600;
 }
+
 .negrita4 a {
   font-weight: 600;
 }
+
 .negrita5 a {
   font-weight: 600;
 }
@@ -68,37 +71,11 @@ body header img {
 .principal {
   width: 98vw;
 }
+
 .logo h1 {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-}
-/* FOOTER */
-footer {
-  background-color: rgb(255, 166, 0);
-}
-.footer1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-}
-.footer2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.logofooter {
-  width: 100px;
-  height: 100px;
-}
-.iconos {
-  width: 40px;
-  height: 40px;
-}
-footer div ul li {
-  display: inline-block;
 }
 
 .finalimg {
@@ -109,6 +86,7 @@ footer div ul li {
   height: 100px;
   padding: 5px;
 }
+
 .banner img {
   width: 430px;
   height: 320px;
@@ -121,12 +99,7 @@ footer div ul li {
   box-sizing: border-box;
   display: block;
   text-align: center;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(243, 156, 18),
-    rgb(245, 176, 65),
-    rgb(248, 196, 113)
-  );
+  background-image: linear-gradient(to bottom, rgb(243, 156, 18), rgb(245, 176, 65), rgb(248, 196, 113));
 }
 
 .tituloh2 {
@@ -139,59 +112,22 @@ footer div ul li {
   padding: 100px;
   background-color: rgba(255, 166, 0, 0.685);
 }
+
 .iframe {
   width: 98vw;
   height: 668px;
   padding: 20px;
   border: 1px solid rgb(0, 0, 0);
 }
+
 .panbanner img {
   padding-top: 2.5%;
 }
 
-/*PAGINA PASTELERIA */
-
-.imgpasteleria {
-  width: 98vw;
-}
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 0px;
-}
-.gridimg {
-  height: 350px;
-  width: 450px;
-  padding-top: 8%;
-}
-.caja1 {
-  display: block;
-  font-size: 33px;
-  text-align: center;
-  font-weight: 800;
-  box-sizing: border-box;
-  padding: 10px;
-  background-color: rgba(255, 166, 0, 0.685);
-}
-.caja2 {
-  text-align: center;
-  background-color: rgb(255, 181, 33);
-  padding: 30px;
-}
-.productospasteleria {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  font-size: 25px;
-  font-weight: 900;
-  margin-top: 1px;
-}
-
-/*PAGINA PANADERIA*/
-
 .panbanner img {
   width: 98vw;
 }
+
 .titulopanaderia {
   display: block;
   text-align: center;
@@ -202,25 +138,71 @@ footer div ul li {
   padding: 50px;
   background-color: rgba(255, 166, 0, 0.685);
 }
+
 .descripcionpanaderia {
   text-align: center;
   background-color: rgb(255, 181, 33);
   padding: 30px;
 }
+
 .productospanaderia {
   align-items: center;
   display: flex;
   justify-content: center;
 }
+
 .pandemolde img {
   width: 98vw;
   display: block;
   margin: auto;
 }
+
+.imgpasteleria {
+  width: 98vw;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 0px;
+}
+
+.gridimg {
+  height: 350px;
+  width: 450px;
+  padding-top: 8%;
+}
+
+.caja1 {
+  display: block;
+  font-size: 33px;
+  text-align: center;
+  font-weight: 800;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: rgba(255, 166, 0, 0.685);
+}
+
+.caja2 {
+  text-align: center;
+  background-color: rgb(255, 181, 33);
+  padding: 30px;
+}
+
+.productospasteleria {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 900;
+  margin-top: 1px;
+}
+
 /*PAGINA CONTACTO*/
 .principal img {
   width: 98vw;
 }
+
 .contacto1 {
   display: flex;
   align-items: center;
@@ -232,6 +214,7 @@ footer div ul li {
   font-size: 25px;
   background-color: rgba(255, 166, 0, 0.685);
 }
+
 .contacto2 {
   display: flex;
   align-items: center;
@@ -242,7 +225,6 @@ footer div ul li {
   font-size: 20px;
 }
 
-/* PAGINA PEDI YA */
 .finalpag {
   display: block;
   font-size: 35px;
@@ -254,8 +236,41 @@ footer div ul li {
   background-color: rgba(255, 166, 0, 0.685);
   color: black;
 }
+
 .pedidosya img {
   width: 98vw;
+}
+
+footer {
+  background-color: rgb(255, 166, 0);
+}
+
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logofooter {
+  width: 100px;
+  height: 100px;
+}
+
+.iconos {
+  width: 40px;
+  height: 40px;
+}
+
+footer div ul li {
+  display: inline-block;
 }
 
 /* Media Queries grid*/
@@ -267,7 +282,7 @@ footer div ul li {
     grid-template-rows: repeat(3, 1fr);
   }
   .grid img {
-    width: 495px;
+    width: 400px;
     height: 310px;
   }
 }
@@ -281,7 +296,6 @@ footer div ul li {
     margin-bottom: 10px;
   }
 }
-
 /* Media queries para pag contacto */
 @media (max-width: 800px) {
   .contacto1 {
@@ -293,7 +307,6 @@ footer div ul li {
     background-color: rgba(255, 166, 0, 0.829);
   }
 }
-
 /* Media queries para hacer el header responsivo */
 @media (max-width: 768px) {
   header {
@@ -314,7 +327,6 @@ footer div ul li {
     margin: auto;
   }
 }
-
 /* Pantallas chicas pagina index */
 @media only screen and (max-width: 600px) {
   .logo img {
@@ -371,7 +383,6 @@ footer div ul li {
     margin: 5px;
   }
 }
-
 /* Pantallas medianas pagina index */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   .logo img {
@@ -400,7 +411,6 @@ footer div ul li {
     height: auto;
   }
 }
-
 /* Pantallas chicas pagina panaderia */
 @media only screen and (max-width: 600px) {
   .logo img {
@@ -454,11 +464,8 @@ footer div ul li {
     font-size: 18px;
     padding: 5px;
   }
-   
 }
-
 /* Pantallas medianas pagina panaderia*/
-
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   .logo img {
     height: 40px;

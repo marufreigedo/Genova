@@ -1,0 +1,26 @@
+footer {
+    background-color: rgb(255, 166, 0);
+  }
+  .footer1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .logofooter {
+    width: 100px;
+    height: 100px;
+  }
+  .iconos {
+    width: 40px;
+    height: 40px;
+  }
+  footer div ul li {
+    display: inline-block;
+  }

@@ -1,0 +1,232 @@
+/* Media Queries grid*/
+@media (max-width: 700px) {
+    .grid {
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+    }
+    .grid img {
+      width: 495px;
+      height: 310px;
+    }
+  }
+  /* Media Queries footer*/
+  @media (max-width: 768px) {
+    .footer1 {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .logofooter {
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Media queries para pag contacto */
+  @media (max-width: 800px) {
+    .contacto1 {
+      background-color: rgb(255, 166, 0);
+      font-size: 17px;
+    }
+    .contacto2 {
+      font-size: 17px;
+      background-color: rgba(255, 166, 0, 0.829);
+    }
+  }
+  
+  /* Media queries para hacer el header responsivo */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+    header nav ul {
+      flex-direction: column;
+      margin-top: 10px;
+    }
+    header nav ul li a {
+      padding: 10px 0;
+      display: block;
+    }
+    body header img {
+      width: 71px;
+      height: 71px;
+      margin: auto;
+    }
+  }
+  
+  /* Pantallas chicas pagina index */
+  @media only screen and (max-width: 600px) {
+    .logo img {
+      height: 60px;
+      margin-left: 5px;
+    }
+    .logo h1 {
+      font-size: 20px;
+    }
+    header {
+      height: auto;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px 20px;
+    }
+    .menu-icon {
+      display: block;
+      font-size: 20px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .menu {
+      display: none;
+    }
+    .menu li {
+      margin-bottom: 10px;
+    }
+    .principal {
+      padding-top: 5%;
+    }
+    .principal img {
+      max-width: 100%;
+      height: auto;
+    }
+    .tituloh2 {
+      font-size: 25px;
+      padding: 10px;
+    }
+    .mision {
+      font-size: 20px;
+      padding: 10px;
+      margin: 0;
+    }
+    .iframe {
+      width: 100%;
+      height: 200px;
+    }
+    .contacto ul {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    .contacto ul li {
+      margin: 5px;
+    }
+  }
+  
+  /* Pantallas medianas pagina index */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .logo img {
+      height: 80px;
+    }
+    .navresponsive {
+      flex-direction: column;
+    }
+    .menu-icon {
+      display: block;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    header {
+      justify-content: space-between;
+      padding: 10px;
+    }
+    .menu {
+      display: none;
+    }
+    .menu li {
+      margin-right: 10px;
+    }
+    .principal img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Pantallas chicas pagina panaderia */
+  @media only screen and (max-width: 600px) {
+    .logo img {
+      height: 75px;
+      margin-left: 5px;
+    }
+    .logo h1 {
+      font-size: 20px;
+    }
+    header {
+      height: auto;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px 20px;
+      font-size: 20px;
+    }
+    .barra2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .menu-icon {
+      display: block;
+      font-size: 20px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .menu {
+      display: none;
+      flex-direction: column;
+    }
+    .menu li {
+      margin-bottom: 10px;
+    }
+    .panbanner img {
+      max-width: 100%;
+      height: auto;
+    }
+    .titulopanaderia {
+      font-size: 25px;
+      padding: 10px;
+    }
+    .descripcionpanaderia {
+      font-size: 20px;
+      padding: 10px;
+      margin: 0;
+    }
+    .productospanaderia {
+      font-size: 18px;
+      padding: 5px;
+    }
+     
+  }
+  
+  /* Pantallas medianas pagina panaderia*/
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .logo img {
+      height: 40px;
+    }
+    .barra2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .menu-icon {
+      display: block;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    header {
+      justify-content: space-between;
+      padding: 10px;
+    }
+    .panbanner img {
+      max-width: 100%;
+      height: auto;
+    }
+    .titulopanaderia {
+      font-size: 30px;
+      padding: 20px;
+    }
+    .descripcionpanaderia {
+      font-size: 22;
+    }
+  }
+  

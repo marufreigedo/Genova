@@ -1,0 +1,116 @@
+header {
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    padding-right: 10px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .logo {
+    align-items: center;
+  }
+  
+  .barra {
+    font-family: system-ui;
+    background-color: rgb(255, 166, 0);
+    text-align: center;
+  }
+  
+  .barra2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body header img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+  }
+  
+  .negrita a {
+    font-weight: 600;
+  }
+  .negrita2 a {
+    font-weight: 600;
+  }
+  .negrita3 a {
+    font-weight: 600;
+  }
+  .negrita4 a {
+    font-weight: 600;
+  }
+  .negrita5 a {
+    font-weight: 600;
+  }
+  
+  .principal {
+    width: 98vw;
+  }
+  .logo h1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+ 
+  
+  .finalimg {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  }
+  .banner img {
+    width: 430px;
+    height: 320px;
+    display: inline-block;
+  }
+  
+  .mision {
+    font-weight: 300;
+    font-size: 28px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    background-image: linear-gradient(
+      to bottom,
+      rgb(243, 156, 18),
+      rgb(245, 176, 65),
+      rgb(248, 196, 113)
+    );
+  }
+  
+  .tituloh2 {
+    display: block;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 100px;
+    background-color: rgba(255, 166, 0, 0.685);
+  }
+  .iframe {
+    width: 98vw;
+    height: 668px;
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  .panbanner img {
+    padding-top: 2.5%;
+  }
+  
+
+  

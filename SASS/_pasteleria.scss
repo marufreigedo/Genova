@@ -1,0 +1,36 @@
+.imgpasteleria {
+    width: 98vw;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0px;
+  }
+  .gridimg {
+    height: 350px;
+    width: 450px;
+    padding-top: 8%;
+  }
+  .caja1 {
+    display: block;
+    font-size: 33px;
+    text-align: center;
+    font-weight: 800;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgba(255, 166, 0, 0.685);
+  }
+  .caja2 {
+    text-align: center;
+    background-color: rgb(255, 181, 33);
+    padding: 30px;
+  }
+  .productospasteleria {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 1px;
+  }
+  
