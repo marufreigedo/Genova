@@ -267,8 +267,8 @@ footer div ul li {
     grid-template-rows: repeat(3, 1fr);
   }
   .grid img {
-    width: 320px;
-    height: 270px;
+    width: 495px;
+    height: 310px;
   }
 }
 /* Media Queries footer*/
