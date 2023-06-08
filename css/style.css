@@ -282,7 +282,7 @@ footer div ul li {
     grid-template-rows: repeat(3, 1fr);
   }
   .grid img {
-    width: 400px;
+    width: 370px;
     height: 310px;
   }
 }
