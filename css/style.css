@@ -8,9 +8,8 @@
 body {
   font-family: "Castoro Titling", cursive;
 }
-  
-/* HEADER */
 
+/* HEADER */
 header {
   justify-content: space-around;
   align-items: center;
@@ -31,21 +30,25 @@ header nav ul li a {
 .logo {
   align-items: center;
 }
+
 .barra {
   font-family: system-ui;
   background-color: rgb(255, 166, 0);
   text-align: center;
 }
+
 .barra2 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 body header img {
   width: 100px;
   height: 100px;
   margin: auto;
 }
+
 .negrita a {
   font-weight: 600;
 }
@@ -62,7 +65,6 @@ body header img {
   font-weight: 600;
 }
 
-
 .principal {
   width: 98vw;
 }
@@ -70,21 +72,16 @@ body header img {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-
-
-  
 }
 /* FOOTER */
 footer {
   background-color: rgb(255, 166, 0);
 }
-
 .footer1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  
 }
 .footer2 {
   display: flex;
@@ -92,22 +89,17 @@ footer {
   align-items: center;
   flex-direction: column;
 }
-
 .logofooter {
   width: 100px;
   height: 100px;
 }
-
-
 .iconos {
   width: 40px;
   height: 40px;
 }
-
 footer div ul li {
   display: inline-block;
 }
-
 
 .finalimg {
   align-items: center;
@@ -117,10 +109,6 @@ footer div ul li {
   height: 100px;
   padding: 5px;
 }
-
-
-
-
 .banner img {
   width: 430px;
   height: 320px;
@@ -133,8 +121,12 @@ footer div ul li {
   box-sizing: border-box;
   display: block;
   text-align: center;
-  background-image: linear-gradient(to bottom,rgb(243, 156, 18) , rgb(245, 176, 65),rgb(248, 196, 113 ) )
-  
+  background-image: linear-gradient(
+    to bottom,
+    rgb(243, 156, 18),
+    rgb(245, 176, 65),
+    rgb(248, 196, 113)
+  );
 }
 
 .tituloh2 {
@@ -145,16 +137,14 @@ footer div ul li {
   margin-bottom: 10px;
   box-sizing: border-box;
   padding: 100px;
-  background-color:rgba(255, 166, 0, 0.685); 
+  background-color: rgba(255, 166, 0, 0.685);
 }
-
 .iframe {
   width: 98vw;
   height: 668px;
   padding: 20px;
   border: 1px solid rgb(0, 0, 0);
 }
-
 .panbanner img {
   padding-top: 2.5%;
 }
@@ -164,19 +154,16 @@ footer div ul li {
 .imgpasteleria {
   width: 98vw;
 }
-
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 0px;
 }
-
 .gridimg {
   height: 350px;
   width: 450px;
   padding-top: 8%;
 }
-
 .caja1 {
   display: block;
   font-size: 33px;
@@ -186,13 +173,11 @@ footer div ul li {
   padding: 10px;
   background-color: rgba(255, 166, 0, 0.685);
 }
-
 .caja2 {
   text-align: center;
   background-color: rgb(255, 181, 33);
   padding: 30px;
 }
-
 .productospasteleria {
   align-items: center;
   display: flex;
@@ -202,18 +187,11 @@ footer div ul li {
   margin-top: 1px;
 }
 
-.carruselpasteleria {
-  width: 1000px;
-  height: 500px;
-  margin: 10px 180px;
-}
-
 /*PAGINA PANADERIA*/
 
 .panbanner img {
   width: 98vw;
 }
-
 .titulopanaderia {
   display: block;
   text-align: center;
@@ -224,36 +202,25 @@ footer div ul li {
   padding: 50px;
   background-color: rgba(255, 166, 0, 0.685);
 }
-
 .descripcionpanaderia {
   text-align: center;
   background-color: rgb(255, 181, 33);
   padding: 30px;
- 
 }
-
-
 .productospanaderia {
   align-items: center;
   display: flex;
   justify-content: center;
 }
-
 .pandemolde img {
- width:98vw ;
+  width: 98vw;
   display: block;
   margin: auto;
 }
-
-.carrusel {
- 
-}
-
 /*PAGINA CONTACTO*/
 .principal img {
   width: 98vw;
 }
-
 .contacto1 {
   display: flex;
   align-items: center;
@@ -265,7 +232,6 @@ footer div ul li {
   font-size: 25px;
   background-color: rgba(255, 166, 0, 0.685);
 }
-
 .contacto2 {
   display: flex;
   align-items: center;
@@ -276,11 +242,8 @@ footer div ul li {
   font-size: 20px;
 }
 
-
 /* PAGINA PEDI YA */
-
 .finalpag {
-
   display: block;
   font-size: 35px;
   font-weight: 700;
@@ -288,44 +251,48 @@ footer div ul li {
   margin-bottom: 10px;
   box-sizing: border-box;
   padding: 100px;
-  background-color:rgba(255, 166, 0, 0.685); 
+  background-color: rgba(255, 166, 0, 0.685);
   color: black;
-  
 }
-
 .pedidosya img {
   width: 98vw;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Media Queries */
-
-
+/* Media Queries grid*/
+@media (max-width: 700px) {
+  .grid {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .grid img {
+    width: 320px;
+    height: 270px;
+  }
+}
+/* Media Queries footer*/
 @media (max-width: 768px) {
   .footer1 {
     flex-wrap: wrap;
     justify-content: center;
   }
-
   .logofooter {
     margin-bottom: 10px;
   }
 }
 
+/* Media queries para pag contacto */
+@media (max-width: 800px) {
+  .contacto1 {
+    background-color: rgb(255, 166, 0);
+    font-size: 17px;
+  }
+  .contacto2 {
+    font-size: 17px;
+    background-color: rgba(255, 166, 0, 0.829);
+  }
+}
 
 /* Media queries para hacer el header responsivo */
 @media (max-width: 768px) {
@@ -333,17 +300,14 @@ footer div ul li {
     flex-direction: column;
     text-align: center;
   }
-
   header nav ul {
     flex-direction: column;
     margin-top: 10px;
   }
-
   header nav ul li a {
     padding: 10px 0;
     display: block;
   }
-
   body header img {
     width: 71px;
     height: 71px;
@@ -351,93 +315,68 @@ footer div ul li {
   }
 }
 
-
 /* Pantallas chicas pagina index */
-
 @media only screen and (max-width: 600px) {
   .logo img {
     height: 60px;
     margin-left: 5px;
   }
-
   .logo h1 {
     font-size: 20px;
   }
-
   header {
     height: auto;
     flex-direction: column;
     align-items: flex-start;
     padding: 10px 20px;
   }
-
   .menu-icon {
     display: block;
     font-size: 20px;
     cursor: pointer;
     margin-top: 10px;
   }
-
   .menu {
     display: none;
   }
-
   .menu li {
     margin-bottom: 10px;
   }
-
-  input[type="checkbox"] {
-    display: none;
-  }
-
-  input[type="checkbox"]:checked ~ .menu {
-    display: block;
-  }
-
   .principal {
     padding-top: 5%;
   }
-
   .principal img {
     max-width: 100%;
     height: auto;
   }
-
   .tituloh2 {
     font-size: 25px;
     padding: 10px;
   }
-
   .mision {
     font-size: 20px;
     padding: 10px;
     margin: 0;
   }
-
-
   .iframe {
     width: 100%;
     height: 200px;
   }
-
   .contacto ul {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 10px;
   }
-
   .contacto ul li {
     margin: 5px;
   }
 }
 
 /* Pantallas medianas pagina index */
-
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   .logo img {
     height: 80px;
   }
-
   .navresponsive {
     flex-direction: column;
   }
@@ -446,24 +385,16 @@ footer div ul li {
     font-size: 20px;
     cursor: pointer;
   }
-
   header {
     justify-content: space-between;
     padding: 10px;
   }
-
   .menu {
     display: none;
   }
-
   .menu li {
     margin-right: 10px;
   }
-
-  input[type="checkbox"]:checked ~ .menu {
-    display: flex;
-  }
-
   .principal img {
     max-width: 100%;
     height: auto;
@@ -471,24 +402,21 @@ footer div ul li {
 }
 
 /* Pantallas chicas pagina panaderia */
-
 @media only screen and (max-width: 600px) {
   .logo img {
-    height: 60px;
+    height: 75px;
     margin-left: 5px;
   }
-
   .logo h1 {
     font-size: 20px;
   }
-
   header {
     height: auto;
     flex-direction: column;
     align-items: flex-start;
     padding: 10px 20px;
+    font-size: 20px;
   }
-
   .barra2 {
     display: flex;
     align-items: center;
@@ -496,59 +424,37 @@ footer div ul li {
     flex-wrap: wrap;
     flex-direction: column;
   }
-
   .menu-icon {
     display: block;
     font-size: 20px;
     cursor: pointer;
     margin-top: 10px;
   }
-
   .menu {
     display: none;
     flex-direction: column;
   }
-
   .menu li {
     margin-bottom: 10px;
   }
-
-  input[type="checkbox"] {
-    display: none;
-  }
-
-  input[type="checkbox"]:checked ~ .menu {
-    display: flex;
-  }
-
   .panbanner img {
     max-width: 100%;
     height: auto;
   }
-
   .titulopanaderia {
     font-size: 25px;
     padding: 10px;
   }
-
   .descripcionpanaderia {
     font-size: 20px;
     padding: 10px;
     margin: 0;
   }
-
   .productospanaderia {
     font-size: 18px;
     padding: 5px;
   }
-
-
-  .finalfooter {
-    text-align: center;
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-
+   
 }
 
 /* Pantallas medianas pagina panaderia*/
@@ -557,54 +463,31 @@ footer div ul li {
   .logo img {
     height: 40px;
   }
-
   .barra2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-
   .menu-icon {
     display: block;
     font-size: 20px;
     cursor: pointer;
   }
-
   header {
     justify-content: space-between;
     padding: 10px;
   }
-
-  .menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .menu li {
-    margin-right: 10px;
-  }
-
-  input[type="checkbox"] {
-    display: none;
-  }
-
-  input[type="checkbox"]:checked ~ .menu {
-    display: flex;
-  }
-
   .panbanner img {
     max-width: 100%;
     height: auto;
   }
-
   .titulopanaderia {
     font-size: 30px;
     padding: 20px;
   }
-
   .descripcionpanaderia {
     font-size: 22;
   }
 }
 
+/*# sourceMappingURL=style.css.map */
