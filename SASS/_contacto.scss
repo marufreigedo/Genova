@@ -18,7 +18,13 @@
     align-items: center;
     justify-content: center;
     height: 100px;
-    margin: 20px;
+    margin: px;
     text-align: center;
     font-size: 20px;
+    background-image: linear-gradient(
+      to bottom,
+      rgb(243, 156, 18),
+      rgb(245, 176, 65),
+      rgb(248, 196, 113)
+    );
   }
