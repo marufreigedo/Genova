@@ -164,7 +164,6 @@ body header img {
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 0px;
 }
 
 .gridimg {
@@ -207,9 +206,8 @@ body header img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
+  height: fit-content;
   padding: 100px;
-  margin: 20px;
   text-align: center;
   font-size: 25px;
   background-color: rgba(255, 166, 0, 0.685);
@@ -220,7 +218,7 @@ body header img {
   align-items: center;
   justify-content: center;
   height: 100px;
-  margin: px;
+  padding: 5px;
   text-align: center;
   font-size: 20px;
   background-image: linear-gradient(to bottom, rgb(243, 156, 18), rgb(245, 176, 65), rgb(248, 196, 113));
@@ -283,14 +281,13 @@ footer div ul li {
     grid-template-rows: repeat(3, 1fr);
   }
   .grid img {
-    width: 495px;
-    height: 310px;
+    width: 100vw;
   }
 }
 /* Media Queries footer*/
 @media (max-width: 768px) {
   .footer1 {
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
   }
   .logofooter {
@@ -410,6 +407,15 @@ footer div ul li {
   .principal img {
     max-width: 100%;
     height: auto;
+  }
+}
+/* Pantallas chicas pagina pedi ya*/
+@media only screen and (max-width: 600px) {
+  .finalpag {
+    padding: 3%;
+  }
+  .pedidosya img {
+    width: 96vw;
   }
 }
 /* Pantallas chicas pagina panaderia */

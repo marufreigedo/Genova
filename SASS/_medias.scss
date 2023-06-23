@@ -7,14 +7,13 @@
       grid-template-rows: repeat(3, 1fr);
     }
     .grid img {
-      width: 495px;
-      height: 310px;
+      width: 100vw;
     }
   }
   /* Media Queries footer*/
   @media (max-width: 768px) {
     .footer1 {
-      flex-wrap: wrap;
+      flex-direction: column;
       justify-content: center;
     }
     .logofooter {
@@ -141,6 +140,16 @@
     }
   }
   
+ /* Pantallas chicas pagina pedi ya*/
+  @media only screen and (max-width: 600px) {
+    .finalpag {
+      padding: 3%; 
+      }
+    .pedidosya img {
+      width: 96vw;
+    }
+  }
+
   /* Pantallas chicas pagina panaderia */
   @media only screen and (max-width: 600px) {
     .logo img {
@@ -194,12 +203,10 @@
       font-size: 18px;
       padding: 5px;
     }
-     
   }
   
   /* Pantallas medianas pagina panaderia*/
-  
-  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+   @media only screen and (min-width: 601px) and (max-width: 1024px) {
     .logo img {
       height: 40px;
     }

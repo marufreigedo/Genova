@@ -6,9 +6,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: fit-content;
     padding: 100px;
-    margin: 20px;
     text-align: center;
     font-size: 25px;
     background-color: rgba(255, 166, 0, 0.685);
@@ -18,7 +17,7 @@
     align-items: center;
     justify-content: center;
     height: 100px;
-    margin: px;
+    padding: 5px;
     text-align: center;
     font-size: 20px;
     background-image: linear-gradient(
