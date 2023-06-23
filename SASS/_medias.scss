@@ -145,12 +145,8 @@
     .finalpag {
       padding: 3%; 
       }
-    .pedidosya img {
-      width: 96vw;
-    }
   }
-
-  /* Pantallas chicas pagina panaderia */
+/* Pantallas chicas pagina panaderia */
   @media only screen and (max-width: 600px) {
     .logo img {
       height: 75px;
@@ -204,7 +200,7 @@
       padding: 5px;
     }
   }
-  
+
   /* Pantallas medianas pagina panaderia*/
    @media only screen and (min-width: 601px) and (max-width: 1024px) {
     .logo img {

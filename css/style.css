@@ -414,9 +414,6 @@ footer div ul li {
   .finalpag {
     padding: 3%;
   }
-  .pedidosya img {
-    width: 96vw;
-  }
 }
 /* Pantallas chicas pagina panaderia */
 @media only screen and (max-width: 600px) {
